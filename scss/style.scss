@@ -1,0 +1,37 @@
+@import "componentes/header";
+@import "componentes/index.scss";
+@import "componentes/footer.scss";
+@import "base/titulos.scss";
+@import "base/listas";
+@import "componentes/servicios";
+@import "componentes/nosotros";
+@import "componentes/contacto";
+@import "base/listas";
+@import "componentes/carousel";
+@import "componentes/404";
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    color: nth($colores, 4);
+    font-weight: bold;
+    text-align: justify;
+}
+
+ul {
+    List-style-type: none;
+    Display: inline-block; 
+    margin: 0px;
+    
+    li {
+        Display: inline-block; 
+    }
+} 
+
+
+

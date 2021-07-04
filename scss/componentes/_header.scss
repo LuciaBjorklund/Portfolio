@@ -1,0 +1,40 @@
+@import "../base/listas";
+
+header {
+    
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-image: linear-gradient( to bottom , rgb(164, 218, 218) , rgb(255, 255, 255));
+
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                transition: all 1s;
+                &:hover {
+                    color: nth($colores, 5);
+                    font-size: 21px;
+               }
+          
+       
+            }
+        }
+    }
+        
+
+    img {
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+    }
+    
+} 
+
+.navIndex {
+    display: flex;
+    padding: 0px 15px;
+    margin: 0 15px 0 0;
+    align-items: flex-end;
+
+}

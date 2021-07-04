@@ -1,0 +1,31 @@
+@import "listas.scss";
+
+h1 {    
+    color: nth($colores, 2);
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+
+}
+h3 {
+    color: nth($colores, 4);
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h5 {
+    color: nth($colores, 9);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 5px;
+
+}
+
+h6 {
+    font-size: 15px;
+    color: nth($colores, 7);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 5px;
+}

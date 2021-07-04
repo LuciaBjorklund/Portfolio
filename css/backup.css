@@ -1,0 +1,402 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+ul {
+    List-style-type: none;
+    Display: inline-block; 
+    padding: 10px;
+    margin: 0px;
+} 
+
+li {
+    Display: inline-block; 
+}
+
+a {
+    text-decoration: none; 
+   color: rgb(36, 187, 192);
+}
+p {
+    font-family: 'Roboto', sans-serif;
+    color: teal;
+    font-weight: bold;
+    text-align: justify;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    background-image: linear-gradient( to bottom , rgb(164, 218, 218) , rgb(255, 255, 255));
+}
+
+.navIndex {
+    display: flex;
+    padding: 0px 15px;
+    margin: 0 15px 0 0;
+    align-items: flex-end;
+
+}
+
+.header a {
+transition: all 1s;
+
+}
+
+.header a:hover {
+    color: rebeccapurple;
+    font-size: 21px;
+}
+.logoNav {
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+    padding-left: 10px;
+    
+
+}
+
+/* Media queries - Phone */
+@media only screen and (max-width: 400px) {
+
+    .navIndex {
+    font-size: 15px;
+    }
+
+}
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+    .navIndex {
+        font-size: 15px;
+        }
+}
+/* Large screen */
+@media only screen and (min-width: 1824px)  {
+    .navIndex {
+        font-size: 30px;
+        }
+}
+/* Fin Header */
+
+/* Section inicial */
+.section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 80px;
+
+}
+
+.paragraph-section {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logoCentral {
+    width: 280px;
+    height: 280px;
+    padding: 10px 20px;
+}
+
+/* Media queries - Phone */
+@media only screen and (max-width: 400px) {
+
+    .section-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 50px 40px;
+            flex-direction: column;
+        
+        }
+    
+        .paragraph-section {
+            font-size: 10px;
+            padding: 5px;
+        }
+
+
+        .logoCentral {
+            width: 100px;
+            height: 100px;
+            padding: 5px 10px;
+        }
+}
+
+/* Tablet */
+@media only screen and (min-width: 401px ) and (max-width: 960px) {
+
+    .section-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 40px;
+        flex-direction: column;
+    
+    }
+
+    .paragraph-section {
+        font-size: 15px;
+        padding: 10px;
+    }
+
+
+    .logoCentral {
+        width: 180px;
+        height: 180px;
+        padding: 10px 15px;
+    }
+
+}
+/* Large screens */
+@media only screen and (min-width: 1824px) { 
+    .section-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px 40px;
+        flex-direction: column;
+    
+    }
+
+    .paragraph-section {
+        font-size: 40px;
+        padding: 20px;
+    }
+
+
+    .logoCentral {
+        width: 340px;
+        height: 340px;
+        padding: 10px 15px;
+    }
+}
+
+/* Fin section inicial */
+
+/* Titulos H1-H6 */
+
+h1 {    
+    color: rgb(36, 187, 192);
+    font-size: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+
+}
+h3 {
+    color: teal;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+h5 {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 5px;
+
+}
+
+h6 {
+    font-size: 15px;
+    color: rgb(71, 71, 71);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 5px;
+}
+/* Fin titulos H1-H6 */
+
+/* HTML Servicios */
+.servicios-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-servicios {
+ text-align: center;
+ width: 600px;
+ margin: 20px;
+}
+
+.botonDeAccion {
+    font-size: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: teal;
+    color: whitesmoke;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.botonDeAccion:hover {
+    font-size: 18px;
+}
+
+
+/* Fin HTML Servicios */
+
+/* HTML Proyectos */
+
+.proyectos-container {
+    color: black;
+    font-size: 20px;
+    font-family: 'Noto Sans JP', sans-serif;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    justify-items: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.proyectos-container img {
+    width: 300px;
+    height: 100px;
+    padding-bottom: 10px;
+}  
+
+.div-container{
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+    border-radius: 20px;
+}
+
+.div-container p {
+    text-align: center;
+}
+/* Fin HTML Proyectos */
+
+/* HTML Nosotros */
+.puestosLaborales {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .info-personal {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 210px;
+        height: 210px;
+        border-radius: 50%;
+        background-color: rgb(85, 201, 201);
+        position: relative;
+        bottom: 222px;
+        left: 7px;
+        opacity: 0;
+        transition: all 1s;
+    }
+    
+    .puestosLaborales img {
+        border: 2px solid grey;
+        margin: 10px;
+        padding: 0;
+        border-radius: 800px;
+        box-shadow: -5px 5px 5px darkslategray;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .info-personal:hover {
+        transform: scale(1.2);
+        opacity: 100%;
+    }
+    
+    .puestosLaborales ul {
+        Display: inline-block; 
+        text-align: center;
+    }
+    
+    .videoYoutube {
+    margin: 40px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+    }
+/* Fin HTML Nosotros */
+
+/* HTML Contacto */
+.datos-contacto {
+    padding: 20px;
+}
+
+.formulario {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+/* Fin HTML contacto */
+
+/* Footer */
+footer {
+display: flex;
+justify-content: center;
+
+}
+
+footer img {
+    width: 50px;
+    height: 50px;
+    transition: all 2s;
+}
+
+footer img:hover {
+transform: scale(2)
+}
+
+/* Media queries - Phone */
+@media only screen and (max-width: 400px) {
+
+    footer img {
+        width: 25px;
+        height: 25px;
+    }
+
+}
+/* Tablet */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+    footer img {
+        width: 40px;
+        height: 40px;
+    }
+
+}
+/* Large screens */
+@media only screen and (min-width: 1824px) { 
+    footer img {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+/* Fin Footer */
+
+/* Media queries - Phone
+@media only screen and (max-width: 400px) {
+
+
+
+
+
+/* Tablet */
+/* @media only screen and (min-width: 401px) { */
+
+    
+/* Large screens */
+
+/* @media only screen and (min-width: 1824px) { */
+
+    

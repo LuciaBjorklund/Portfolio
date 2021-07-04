@@ -1,0 +1,328 @@
+header {
+  font-size: 20px;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bold;
+  background-image: linear-gradient(to bottom, #a4dada, white);
+}
+header .navbar-nav .nav-item .nav-link {
+  transition: all 1s;
+}
+header .navbar-nav .nav-item .nav-link:hover {
+  color: #823aca;
+  font-size: 21px;
+}
+header img {
+  width: 60px;
+  height: 60px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.navIndex {
+  display: flex;
+  padding: 0px 15px;
+  margin: 0 15px 0 0;
+  align-items: flex-end;
+}
+
+.boton-404, div div p, .puestosLaborales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 100px 80px;
+}
+.section-container p {
+  font-size: 20px;
+  padding: 10px;
+}
+.section-container img {
+  width: 280px;
+  height: 280px;
+  padding: 10px 20px;
+}
+@media (max-width: 400px) {
+  .section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 40px;
+  }
+  .section-container p {
+    font-size: 10px;
+    padding: 10px;
+  }
+  .section-container img {
+    width: 100px;
+    height: 100px;
+    padding: 5px 10px;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  .section-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px 40px;
+  }
+  .section-container p {
+    font-size: 15px;
+    padding: 10px;
+  }
+  .section-container img {
+    width: 180px;
+    height: 180px;
+    padding: 10px 15px;
+  }
+}
+
+.paragraph-section {
+  color: teal;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: justify;
+  font-size: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer ul {
+  padding: 10px;
+}
+footer img {
+  width: 50px;
+  height: 50px;
+  transition: all 2s;
+}
+footer img:hover {
+  transform: scale(2);
+}
+@media (max-width: 400px) {
+  footer img {
+    width: 25px;
+    height: 25px;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  footer img footer img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+h1 {
+  color: #24bbc0;
+  font-size: 30px;
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: teal;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h5 {
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 5px;
+}
+
+h6 {
+  font-size: 15px;
+  color: #474747;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  padding: 5px;
+}
+
+.servicios-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  grid-template-rows: auto auto auto;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 400px) {
+  .servicios-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 400px) {
+  .servicios-container p {
+    font-size: 10px;
+    text-align: justify;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  .servicios-container p {
+    font-size: 10px;
+    text-align: justify;
+  }
+}
+
+.section-servicios {
+  text-align: center;
+  margin: 20px;
+}
+@media (max-width: 400px) {
+  .section-servicios {
+    text-align: justify;
+    margin: 5px;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  .section-servicios {
+    text-align: justify;
+    margin: 10px;
+  }
+}
+
+.botonDeAccion {
+  font-size: 15px;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: teal;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.botonDeAccion:hover {
+  font-size: 18px;
+}
+
+.boton-404, div div p, .puestosLaborales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.puestosLaborales ul {
+  display: inline-block;
+  text-align: center;
+}
+.puestosLaborales ul li img {
+  border: 2px solid grey;
+  margin: 10px;
+  padding: 0;
+  border-radius: 800px;
+  box-shadow: -5px 5px 5px darkslategray;
+  width: 200px;
+  height: 200px;
+}
+
+.info-personal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 210px;
+  height: 210px;
+  border-radius: 50%;
+  background-color: #55c9c9;
+  position: relative;
+  bottom: 222px;
+  left: 7px;
+  opacity: 0;
+  transition: all 1s;
+}
+.info-personal:hover {
+  transform: scale(1.2);
+  opacity: 100%;
+}
+
+.videoYoutube {
+  margin: 40px 0px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.datos-contacto {
+  padding: 20px;
+}
+
+.formulario {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div div p {
+  color: #474747;
+}
+
+.boton-404, .puestosLaborales, div div p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.error-container {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.boton-404 {
+  text-decoration: none;
+  font-size: 15px;
+  font-family: "Noto Sans JP", sans-serif;
+  background-color: teal;
+  color: whitesmoke;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: all 1s;
+}
+.boton-404:hover {
+  text-decoration: none;
+  color: #474747;
+  font-size: 18px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  color: teal;
+  font-weight: bold;
+  text-align: justify;
+}
+
+ul {
+  List-style-type: none;
+  Display: inline-block;
+  margin: 0px;
+}
+ul li {
+  Display: inline-block;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,59 @@
+@import "../base/listas";
+
+.servicios-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows: auto auto auto;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 400px) {
+        @include Flexdirection(column);
+    }
+
+
+    p {
+        @media (max-width: 400px) {
+            font-size: 10px;
+            text-align: justify;
+        }
+
+        @media (min-width: 401px ) and (max-width: 960px) {
+            font-size: 10px;
+            text-align: justify;
+        }
+    }
+}
+
+.section-servicios {
+ text-align: center;
+ margin: 20px;
+
+ @media (max-width: 400px) {
+     text-align: justify;
+     margin: 5px;
+     
+ }
+
+ @media (min-width: 401px ) and (max-width: 960px) {
+    text-align: justify;
+    margin: 10px;
+ }
+
+}
+
+.botonDeAccion {
+    font-size: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    background-color: nth($colores, 4);
+    color: nth($colores, 1);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+
+    &:hover {
+        font-size: 18px;
+    }
+
+}

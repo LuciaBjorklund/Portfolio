@@ -1,0 +1,26 @@
+@import "../base/listas";
+@import "../base/Flexbox";
+
+.error-container {
+  margin-top: 200px;
+  @include Flexdirection(column);
+}
+
+.boton-404 {
+  @extend %Flexbox;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: nth($colores, 4);
+  color: nth($colores, 1);
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  transition: all 1s;
+  &:hover {
+    text-decoration: none;
+    color: nth($colores, 7);
+    font-size: 18px;
+  }
+}
