@@ -1,5 +1,5 @@
 {
-  "name": "proyecto-final-sass",
+  "name": "crean",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
@@ -7,5 +7,13 @@
   },
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuciaBjorklund/Portfolio.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LuciaBjorklund/Portfolio/issues"
+  },
+  "homepage": "https://github.com/LuciaBjorklund/Portfolio#readme",
   "description": ""
 }

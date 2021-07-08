@@ -267,6 +267,13 @@ h6 {
   margin-right: auto;
 }
 
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 div div p {
   color: #474747;
 }
@@ -302,6 +309,10 @@ div div p {
   text-decoration: none;
   color: #474747;
   font-size: 18px;
+}
+
+.margin-carousel {
+  padding: 2px;
 }
 
 * {
