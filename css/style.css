@@ -25,7 +25,7 @@ header img {
   align-items: flex-end;
 }
 
-.boton-404, div div p, .puestosLaborales {
+.boton-404, div div p, .puestosLaborales, .queHacemos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -204,12 +204,22 @@ h6 {
   padding: 10px;
   margin: 10px;
   text-align: center;
+  text-decoration: none;
+  transition: all 1s;
 }
 .botonDeAccion:hover {
-  font-size: 18px;
+  font-size: 16px;
+  background-color: darkslategray;
+  color: whitesmoke;
 }
 
-.boton-404, div div p, .puestosLaborales {
+.queHacemos {
+  font-size: xx-large;
+  margin-top: 8px;
+  margin-bottom: 0px;
+}
+
+.boton-404, div div p, .puestosLaborales, .queHacemos {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,7 +288,7 @@ div div p {
   color: #474747;
 }
 
-.boton-404, .puestosLaborales, div div p {
+.boton-404, .queHacemos, .puestosLaborales, div div p {
   display: flex;
   justify-content: center;
   align-items: center;
