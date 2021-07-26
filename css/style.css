@@ -25,7 +25,7 @@ header img {
   align-items: flex-end;
 }
 
-.boton-404, div div p, .puestosLaborales, .queHacemos {
+.boton-404, div div p {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,8 +57,13 @@ header img {
     margin: 50px 40px;
   }
   .section-container p {
-    font-size: 10px;
+    font-size: 15px;
     padding: 10px;
+  }
+  .section-container h1 {
+    font-size: 15px;
+    padding: 10px;
+    text-align: justify;
   }
   .section-container img {
     width: 100px;
@@ -110,8 +115,8 @@ footer img:hover {
 }
 @media (max-width: 400px) {
   footer img {
-    width: 25px;
-    height: 25px;
+    width: 30px;
+    height: 30px;
   }
 }
 @media (min-width: 401px) and (max-width: 960px) {
@@ -151,6 +156,8 @@ h6 {
 }
 
 .servicios-container {
+  margin-top: 30px;
+  margin-right: 30px;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   grid-template-rows: auto auto auto;
@@ -165,15 +172,23 @@ h6 {
     flex-direction: column;
   }
 }
+@media (min-width: 401px) and (max-width: 960px) {
+  .servicios-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
 @media (max-width: 400px) {
   .servicios-container p {
-    font-size: 10px;
+    font-size: 15px;
     text-align: justify;
   }
 }
 @media (min-width: 401px) and (max-width: 960px) {
   .servicios-container p {
-    font-size: 10px;
+    font-size: 15px;
     text-align: justify;
   }
 }
@@ -212,20 +227,33 @@ h6 {
   background-color: darkslategray;
   color: whitesmoke;
 }
-
-.queHacemos {
-  font-size: xx-large;
-  margin-top: 8px;
-  margin-bottom: 0px;
+@media (max-width: 400px) {
+  .botonDeAccion {
+    font-size: 12px;
+    margin: 5px 5px 30px 5px;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  .botonDeAccion {
+    text-align: justify;
+    margin: 10px;
+  }
 }
 
-.boton-404, div div p, .puestosLaborales, .queHacemos {
+.boton-404, div div p {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
 }
 
+.puestosLaborales {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
 .puestosLaborales ul {
   display: inline-block;
   text-align: center;
@@ -238,6 +266,24 @@ h6 {
   box-shadow: -5px 5px 5px darkslategray;
   width: 200px;
   height: 200px;
+}
+@media (max-width: 400px) {
+  .puestosLaborales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  .puestosLaborales {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .info-personal {
@@ -266,15 +312,21 @@ h6 {
   margin-left: auto;
   margin-right: auto;
 }
+@media (max-width: 400px) {
+  .videoYoutube {
+    width: 350px;
+    height: 180px;
+  }
+}
+@media (min-width: 401px) and (max-width: 960px) {
+  .videoYoutube {
+    width: 630px;
+    height: 320px;
+  }
+}
 
 .datos-contacto {
   padding: 20px;
-}
-
-.formulario {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 form {
@@ -283,12 +335,17 @@ form {
   align-items: center;
   flex-direction: column;
 }
+@media (max-width: 400px) {
+  form {
+    margin: 10px;
+  }
+}
 
 div div p {
   color: #474747;
 }
 
-.boton-404, .queHacemos, .puestosLaborales, div div p {
+.boton-404, div div p {
   display: flex;
   justify-content: center;
   align-items: center;

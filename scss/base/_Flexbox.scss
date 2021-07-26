@@ -11,3 +11,12 @@
     align-items: center;
     flex-direction: $direction;
 }
+
+@mixin Flexwrap($wrap) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: $wrap;
+}
+

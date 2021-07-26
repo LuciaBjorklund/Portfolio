@@ -3,14 +3,15 @@
 
 .puestosLaborales {
 
-    @extend %Flexbox;
+    @include Flexwrap(nowrap);
+
    
     ul {
 
         display: inline-block; 
         text-align: center;   
             li {
-  
+             
             img {
                 border: 2px solid grey;
                 margin: 10px;
@@ -21,6 +22,13 @@
                 height: 200px;
             }
         }
+    }
+
+    @media (max-width: 400px) {
+        @include Flexwrap(wrap);
+    }
+    @media (min-width: 401px ) and (max-width: 960px) {
+        @include Flexwrap(wrap);
     }
 }
 
@@ -42,6 +50,7 @@
         transform: scale(1.2);
         opacity: 100%;
     }
+
 }
 
 
@@ -51,4 +60,13 @@
     margin-left: auto;
     margin-right: auto;
     
+    @media (max-width: 400px) {
+        width: 350px;
+        height: 180px;
+    }
+    @media (min-width: 401px ) and (max-width: 960px) {
+        width: 630px;
+        height: 320px;
+    }
+
     }
